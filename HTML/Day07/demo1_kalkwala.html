@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+  <fieldset >
+    <legend>Register</legend>
+  <form action="" method="post">
+<!-- java=>Spring Boot,.net,python=>Django,php,nodejs+express js -->
+
+    <label for="myid">Username :: &nbsp; &nbsp;</label>
+    <input type="text" name="myusername" id="myid" 
+      pattern="admin" minlength="3"
+    placeholder="Enter the Username" required> <br><br>
+
+    <label for="password">Password :: &nbsp; &nbsp;</label>
+    <input type="password" name="password" id="password" placeholder="Enter the password"> <br><br>
+
+    <label for="">Age :: &nbsp; &nbsp;</label>
+      <input type="number" placeholder="Enter the Age"> <br><br>
+
+      
+    <label for="">Mobile No :: &nbsp; &nbsp;</label>
+    <input type="tel" placeholder="Enter the Mobile no"> <br><br>
+
+    
+      
+    <label for="">Gender :: &nbsp; &nbsp;</label>
+    <input type="radio" name="gender" value="male">Male 
+    <input type="radio" name="gender" value="female">Female 
+    <br><br>
+    
+    <label for="">Technology :: &nbsp; &nbsp;</label>
+    <input type="checkbox" name="technology" value="corejava"> Core java &nbsp; <br>
+    <input type="checkbox" name="technology" value="html"> HTML CSS JS &nbsp; <br>
+    <input type="checkbox" name="technology" value="angular8"> Angular 8 &nbsp; <br>
+    <input type="checkbox" name="technology" value="springboot"> Spring Boot &nbsp; <br><br>
+
+    <label for="">City:: </label>
+    <select name="city" id="">
+      <option value="selectcity">Select City</option>
+      <option value="pune">Pune</option>
+      <option value="mumbai">Mumbai</option>
+      <option value="amravati">Amravati</option>
+    </select>
+<br><br>
+
+    <label for="">DOB :: </label>
+    <input type="date" name="dob"> <br><br>
+
+      <label for="">Range::</label>
+    <input type="range" min="0" max="10" step="1">
+<br><br>
+    <label for="">Browse a file</label>
+    <input type="file" name="myfile" accept="x-image/*">
+
+    <br><br>
+    <input type="submit" value="Login">
+    <input type="reset" value="Clear">
+
+  </form>
+</fieldset>
+
+
+</body>
+</html>

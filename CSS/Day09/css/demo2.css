@@ -1,0 +1,17 @@
+
+input{
+  background-color: aqua;
+  color: red
+}
+
+.myinput{
+  padding: 10px;
+  border-radius: 10px ;
+}
+
+#myimg{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  cursor: pointer;
+}

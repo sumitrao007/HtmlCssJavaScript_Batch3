@@ -1,0 +1,12 @@
+
+th,tr,td{
+  border: 1px solid;
+}
+.main-div{
+  list-style: none;
+  display: flex;
+  
+}
+li{
+  margin: 10px;
+}

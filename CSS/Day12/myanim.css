@@ -1,0 +1,65 @@
+img {
+  width: 150px;
+  height: 150px;
+}
+
+div {
+  width: 250px;
+  height: 250px;
+  background-color: white;
+ 
+  float: right;
+  
+  position: relative;
+
+  text-shadow: 2px 2px 5px springgreen;
+
+  animation-name: example;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  /* animation-direction: alternate; */
+  animation-direction: alternate-reverse;
+
+
+  /* Text In Centre */
+  text-align: center;
+  line-height: 50px;
+  color: red;
+}
+
+@keyframes example {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+    /* hw use right & bootom */
+  }
+  25% {
+    background-color: yellow;
+    left: -100px;
+    top: 0px;
+    color: black;
+    font-style: italic;
+  }
+  50% {
+    background-color: blue;
+    left: -100px;
+    top: 100px;
+    color: white;
+    font-style: italic;
+  }
+  75% {
+    background-color: green;
+    left: 0px;
+    top: 100px;
+    color: gold;
+    text-transform: uppercase;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+    color: green;
+    text-transform: uppercase;
+  }
+}

@@ -1,0 +1,63 @@
+
+th,tr,td{
+  border: 1px solid;
+}
+.main-div{
+  list-style: none;
+  display: flex;
+  
+}
+li{
+  margin: 10px;
+}
+
+.main-nav{
+  height: 50px;
+  background-color: aqua;
+  color: white;
+  padding: 5px;
+  border: 2px solid blue;
+}
+
+.push{
+  margin-left: auto;
+  /* float: right; */
+}
+
+.mybtn{
+  border: 2px solid blueviolet;
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 8px;
+  height: 40px;
+  width: 60px ;
+  text-transform: uppercase;
+  transition: 1.5s;
+}
+
+.btnRed{
+  border: 2px solid red;
+}
+
+.btnRed:hover {
+  background-color: red;
+  color: white;
+}
+
+.btnGreen{
+  border: 2px solid green;
+}
+.btnGreen:hover{
+  background-color: green;
+  color: white;
+}
+
+.btnBlue{
+  border: 2px solid blue;
+}
+
+.btnBlue:hover{
+  background-color: blue;
+  color: white;
+}

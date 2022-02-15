@@ -1,0 +1,11 @@
+button{
+  margin: 5px;
+  padding: 8px;
+  border: 2px solid green;
+  border-radius: 8px;
+  text-transform: uppercase;
+}
+button:hover{
+  background-color: springgreen;
+  color: white;
+}

@@ -1,0 +1,21 @@
+input{
+  margin: 5px;
+  padding: 8px;
+  border: 2px solid;
+  border-radius: 8px;
+
+}
+button{
+  margin: 5px;
+  padding: 8px;
+  border: 2px solid;
+  border-radius: 8px
+}
+
+div{
+  width: 350px;
+  height: 250px;
+  color: blue;
+  font-size: 32px;
+  border: 2px solid green;
+}

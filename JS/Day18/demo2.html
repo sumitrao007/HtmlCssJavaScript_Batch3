@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+  
+
+  <form action="" onsubmit="return validation()">
+   
+
+    <label for="username1">Username:</label> &nbsp;&nbsp;
+    <input type="text" onchange="myChange()"
+    placeholder="Enter the Username" 
+    id="username1" name="username"
+   
+    > <br>
+    <span id="usernamespan" style="color: red;"></span>
+    <br><br>
+ 
+    <label for="">Password: </label>&nbsp;&nbsp;
+    <input type="password" onchange="mypassword()"
+    placeholder="Enter the Password" 
+    id="password" name="password"
+    > 
+    <br>
+    <span id="passwordspan" style="color: red;"></span>
+    <br><br>
+
+    <label for="">Confirm Password: </label>&nbsp;&nbsp;
+    <input type="password" 
+    placeholder="Enter the Confirm Password" 
+    id="confirmpassword" name="confirmpassword"
+    > 
+    <br>
+    <span id="confirmpassspan"></span>
+    <br><br>
+    
+
+    <label for="">Mobile number: </label>&nbsp;&nbsp;
+    <select name="countryCode" id="countryId">
+        <option value="">+91</option>
+        <option value="">+92</option>
+    </select>&nbsp; <input type="text" 
+    placeholder="Enter the Mobile Number" 
+    id="mobileno" name="mobileno"
+    > 
+    <br>
+    <span id="mobilenopan"></span>
+    <br><br>
+ 
+    <label for="">Email ID: </label>&nbsp;&nbsp;
+    <input type="text" 
+    placeholder="Enter the Email ID" 
+    id="emailid" name="emailid"
+    > 
+    <br>
+    <span id="emailspan"></span>
+    <br><br> 
+
+    <button type="submit">Submit</button>
+
+
+
+</form>
+
+
+<script src="demo2.js"></script>
+</body>
+</html>

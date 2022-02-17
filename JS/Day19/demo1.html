@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+  <label for="">Gender::</label>
+    <input type="radio"  name="gender" value="male" 
+    onclick="OnClick()">Male &nbsp;&nbsp;
+    <input type="radio"  name="gender" value="female" onclick="OnClick()">Female <br>
+    <span id="genderid" style="color: red;"></span>
+    <hr>
+
+    
+    <small style="color: red;">*</small><label for="">Technology</label> <br>
+    <input type="checkbox" name="Checkbox" value="Angular">Angular 8 <br>
+    <input type="checkbox" name="Checkbox" value="corejava">Core Java <br>
+    <input type="checkbox" name="Checkbox" value="advancedjava">Advanced Java <br>
+    <input type="checkbox" name="Checkbox" value="spring"> Spring Boot <br>
+    <span id="technoSpan" style="color: red;"></span>
+    <hr>
+
+    <label for="">Select city:</label>
+
+    <select id="city" name="mycity">
+        <option value="selectcity"> Select City </option>
+        <option value="pune"> PUNE </option>
+        <option value="mumbai"> MUMBAI </option>
+        <option value="satara"> SATARA </option>
+        <option value="nagar">NAGAR</option>
+        <option value="other">Other</option>
+    </select> <br><br>
+
+    <textarea name="myfb" id="feedback" onchange="Feedbackcount()"
+    cols="80" rows="10"></textarea><br>
+    <small>char limit is 160 =>  </small> 
+    <small id="counttag"></small>
+    <br><br>
+
+    <button onclick="validation()">Submit</button>
+   <script src="demo1.js"></script> 
+</body>
+</html>
